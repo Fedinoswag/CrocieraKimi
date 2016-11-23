@@ -1,4 +1,5 @@
 package crociera;
 
-public interface Iattivita {
+public interface IAttivita {
+	//Grazie per la collaborazione e figli maschi
 }
