@@ -1,5 +1,4 @@
 package crociera;
-
 import java.util.LinkedList;
 
 public class GestioneSingolaAttivita {
