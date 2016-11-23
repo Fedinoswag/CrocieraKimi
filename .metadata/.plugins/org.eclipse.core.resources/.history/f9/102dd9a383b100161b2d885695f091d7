@@ -2,12 +2,11 @@ package secondaCrociera;
 
 import java.util.Date;
 
-public class Freccette extends AttivitaSportiva{
+public abstract class AttivitaGioco extends Attivita {
 
-	public Freccette(Date start, Date stop) {
+	public AttivitaGioco(Date start, Date stop) {
 		super(start, stop);
 		// TODO Auto-generated constructor stub
 	}
 
-	
 }
