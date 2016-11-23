@@ -1,4 +1,4 @@
 package crociera;
 
-public interface Iattivita {
+public interface IAttivita {
 }

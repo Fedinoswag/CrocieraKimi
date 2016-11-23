@@ -2,7 +2,7 @@ package crociera;
 
 import java.util.Date;
 
-public abstract class Attivita implements Iattivita {
+public abstract class Attivita implements IAttivita {
 	protected Date timeStart;
 	protected Date timeStop;
 	protected boolean attivitaConclusa = false;
