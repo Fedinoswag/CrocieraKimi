@@ -1,4 +1,4 @@
-package crociera;
+package secondaCrociera;
 
 public class Dipendente {
 	protected final String nome;

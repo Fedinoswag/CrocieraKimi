@@ -1,4 +1,4 @@
-package crociera;
+package secondaCrociera;
 
 import java.util.Date;
 
@@ -8,5 +8,10 @@ public abstract class AttivitaGioco extends Attivita {
 		super(start, stop);
 		// TODO Auto-generated constructor stub
 	}
+	
+	public int getPeso(){
+		return 1;
+	}
+
 
 }

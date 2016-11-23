@@ -1,4 +1,5 @@
-package crociera;
+package secondaCrociera;
 
-public interface Iattivita {
+public interface InterfaceAttivita {
+	public int getPeso();
 }

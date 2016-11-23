@@ -1,0 +1,4 @@
+package secondaCrociera;
+
+public interface Iattivita {
+}

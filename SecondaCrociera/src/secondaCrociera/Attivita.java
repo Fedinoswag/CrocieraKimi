@@ -1,8 +1,8 @@
-package crociera;
+package secondaCrociera;
 
 import java.util.Date;
 
-public abstract class Attivita implements Iattivita {
+public abstract class Attivita implements InterfaceAttivita {
 	protected Date timeStart;
 	protected Date timeStop;
 	protected boolean attivitaConclusa = false;
