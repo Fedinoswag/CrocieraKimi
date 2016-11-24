@@ -13,5 +13,7 @@ public abstract class AttivitaGioco extends Attivita {
 		return 1;
 	}
 
-
+	public String typeClass(){
+		return "gioco";
+	}
 }

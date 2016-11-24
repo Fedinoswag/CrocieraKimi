@@ -6,4 +6,6 @@ public interface IAttivita {
 	// BOOOOM
 
 	public int getPeso(); 
+	
+	public String typeClass();
 }

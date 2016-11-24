@@ -18,4 +18,24 @@ public class GestioneSingolaAttivita {
 			System.out.println("attivita: "+listAttivita.get(i).getClass());
 		}
 	}
+	
+	public int calcolaNumAttivitaSportive(){
+		int num=0;
+		for(int i=0;i<listAttivita.size();i++){
+			if(listAttivita.get(i).typeClass().equals("sportiva")){
+				num++;
+			}
+		}
+		return num;
+	}
+	
+	public int calcolaNumAttivitaGioco(){
+		int num=0;
+		for(int i=0;i<listAttivita.size();i++){
+			if(listAttivita.get(i).typeClass().equals("gioco")){
+				num++;
+			}
+		}
+		return num;
+	}
 }

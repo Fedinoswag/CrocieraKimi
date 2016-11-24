@@ -13,4 +13,8 @@ public abstract class AttivitaSportiva extends Attivita {
 	public int getPeso(){
 		return 2;
 	}
+	
+	public String typeClass(){
+		return "sportiva";
+	}
 }
