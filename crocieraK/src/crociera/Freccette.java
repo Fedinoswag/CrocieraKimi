@@ -1,8 +1,8 @@
-package crociera;
+package secondaCrociera;
 
 import java.util.Date;
 
-public class Freccette extends AttivitaGioco{
+public class Freccette extends AttivitaSportiva{
 
 	public Freccette(Date start, Date stop) {
 		super(start, stop);
