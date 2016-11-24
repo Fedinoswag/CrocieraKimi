@@ -103,3 +103,37 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/Fedino
 	at org.eclipse.jgit.transport.Transport.push(Transport.java:1250)
 	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
 	... 4 more
+
+!ENTRY org.eclipse.core.resources 4 566 2016-11-24 09:11:52.387
+!MESSAGE Could not save master table to file '/home/giacomo/CrocieraKimi/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /home/giacomo/CrocieraKimi/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (File o directory non esistente)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1286)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1277)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1254)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 566 2016-11-24 09:13:17.140
+!MESSAGE Could not save master table to file '/home/giacomo/CrocieraKimi/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /home/giacomo/CrocieraKimi/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (File o directory non esistente)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1286)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1277)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1254)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
