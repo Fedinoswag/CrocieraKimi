@@ -9,5 +9,8 @@ public abstract class AttivitaSportiva extends Attivita {
 		super(start, stop);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	public int getPeso(){
+		return 2;
+	}
 }

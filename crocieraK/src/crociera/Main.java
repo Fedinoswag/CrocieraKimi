@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.LinkedList;
 
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class Main {
 		Attivita a = new Freccette(adesso, adesso);
 		Attivita b = new Freccette(adesso, adesso);
 		Attivita c = new Briscola(adesso, adesso);
-		System.out.println(adesso);
+		System.out.println(adesso.getDay());
 		a.inizioFine();
 		a.setAttivitaConclusa();
 		System.out.println(a.getAttivitaConclusa());
@@ -36,7 +37,13 @@ public class Main {
 		GestioneSingolaAttivita gsa = new GestioneSingolaAttivita(squadra, listAtt);
 		gsa.printGestione();
 		
+		Calendario calendario = new Calendario();
+		calendario.addAttivita(a, 2, 5, 6);
+		calendario.addAttivita(b, 2, 6, 7);
+		calendario.addAttivita(c, 2, 1, 2);
 		
+		System.out.println(calendario.pesoAttivitaPerGiorno(2));
+		calendario.printAttivitaPerGiorno(2);
 	}
 
 }
