@@ -1,4 +1,4 @@
-package secondaCrociera;
+package crociera;
 
 import java.util.LinkedList;
 
