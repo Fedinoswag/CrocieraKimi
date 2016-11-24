@@ -45,6 +45,7 @@ public class Main {
 		System.out.println(calendario.pesoAttivitaPerGiorno(2));
 		calendario.printAttivitaPerGiorno(2);
 		// KIMI
+		// KIMMIMIMI
 	}
 
 }
