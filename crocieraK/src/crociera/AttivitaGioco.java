@@ -13,5 +13,4 @@ public abstract class AttivitaGioco extends Attivita {
 		return 1;
 	}
 
-
 }
